@@ -1,3 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 60px auto;
+  background-color: #333241;
+  text-align: center;
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
 body {
-  
+  font-size: 100%;
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  /* line-height: 1.0; */
+  color: #eeecee;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+input {
+  width: 70%;
+  height: 50px;
+  padding: 10px;
+  margin: 30px 0;
+  background-color: #eee;
+  outline: none;
+  border: none;
+  color: #aaa;
+  font-size: 1em;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1.5px solid orange;
+}
+
+::placeholder {
+  color: #aaa;
+  /* font-size: 1.1em; */
+  font-weight: lighter;
+}
+
+#contacts-list {
+  width: 70%;
+  margin: auto;
+}
+
+.divider {
+  background-color: #bbb;
+  text-align: left;
+  /* font-weight: bold; */
+  line-height: 1.5;
+  font-size: 1.3em;
+  padding: 0 5px;
+
+}
+
+li {
+  text-align: left;
+  border-bottom: 1px solid #c2b1bd;
+  line-height: 2.0;
+  padding: 17px;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+li:hover {
+  background-color: goldenrod;
 }
